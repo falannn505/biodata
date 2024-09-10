@@ -295,8 +295,9 @@ section {
 
  /* Pendidikan*/
 
- #pendidikan {
+ .pendidikan {
     position: relative;
+     margin-top: 10px;
  }
 
  .box-pendidikan {
