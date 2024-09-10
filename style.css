@@ -55,7 +55,7 @@ a {
 a:hover {
     color: grey;
     text-decoration: underline;
-    text-underline-offset : 1rem;
+    text-underline-offset: 1rem;
     text-decoration-color: rgb(181,181,181);
 }
 
@@ -291,4 +291,45 @@ section {
  .text-detail {
     display: flex;
     flex-direction: column;
+ }
+
+ /* Pendidikan*/
+
+ #pendidikan {
+    position: relative;
+ }
+
+ .box-pendidikan {
+    text-align: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem ;
+    color:black;
+    align-content: center;
+ }
+
+ .box-kiri, .box-tengah, .box-kanan {
+    width:225px;
+    height: 235px;
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align: center;
+    margin: 17px;
+    border-radius: 20px;
+    float: left;
+ }
+
+ .box-kiri :hover, .box-tengah :hover, .box-kanan :hover {
+    background-color: #3b5999;
+    color: white;
+ }
+
+ .box-pendidikan h3, p {
+    margin-top: 20px;
+    margin-bottom: 22px;
+    padding: 0px;
  }
